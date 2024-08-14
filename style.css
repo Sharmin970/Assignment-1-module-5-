@@ -1,0 +1,157 @@
+body{
+    background-color: beige;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btn{
+    border-radius: 15px !important;
+}
+
+.btn-secondary{
+    background-color: #07acb4;
+    color:black;
+    transition: transform 0.3s ease;
+}
+
+.btn-success{
+    transition: transform 0.3s ease;
+}
+
+.btn-success:hover {
+    transform: scale(1.1);
+}
+
+
+.btn-info{
+    transition: transform 0.3s ease;
+}
+
+.btn-info:hover {
+    transform: rotate(4deg);
+}
+
+.btn-warning{
+    transition: transform 0.3s ease;
+}
+
+.btn-warning:hover {
+    transform: scale(1.1);
+}
+
+.custom-table td, .custom-table th{
+    background-color:#c4ddfc;
+    border-color: #333333;
+    transition: background-color 0.3s;
+    
+}
+
+.custom-table tr{
+    border-color: #333333;
+}
+
+.custom-table td:hover, .custom-table th:hover {
+    background-color: #83b1ea;
+}
+
+
+.list-group-item{
+    background-color: #91e8f6;
+    border-color: black;
+}
+
+.list-group-item:hover {
+    background-color: #5bc0d1;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+
+}
+
+.pagination .page-item .page-link{
+    background-color: #91e8f6;
+    color:black
+    transition: transform 0.3s ease;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #4cc1db;
+    transform: scale(1.1);
+}
+
+.login-container{
+    background-color: #cce7eb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #666666;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
